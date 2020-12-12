@@ -6,7 +6,7 @@
 <ul>
 <li>Trazer dados dos usuários de uma API, montar uma lista, ordenar pelo nome</li>
 <li>Buscar usuários, seja pelo nome, sobrenome, ou apenas uma letra.</li>
-<li>Somátoria das idades e dos gêneros</li>
+<li>Somatória das idades e dos gêneros</li>
 <li>Média das idades</li>
 </ul>
 <h3>:calendar: Status do Projeto</h3>
