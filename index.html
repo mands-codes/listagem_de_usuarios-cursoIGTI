@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Usuário</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+    <h1 class="title">Pesquisa de Usuários</h1>
+    <div class="search">
+        <form>
+            <input type="text" placeholder="Busca" id="inputName">
+            <a class="waves-effect waves-light btn-small" id="buttonSearch">Busca <i class="small material-icons">search</i></a>
+            <a class="waves-effect waves-light btn-small" id="buttonRefresh" onClick="window.location.reload()"><i class="small material-icons">reply</i></a>
+        </form>
+    </div>
+    <div class="results">
+        <div class="tabUser">
+          <h5><span id="countUser"></span> usuário(s) encontrado(s)</h5>
+        <div class="users">
+        </div>
+    </div>
+        <div class="statics">
+            <h5>Estatísticas</h5>
+            <ul>
+                <li><strong>Sexo Feminino: </strong><span id="countF"></span></li>
+                <li><strong>Sexo Masculino: </strong><span id="countM"></span></li>
+                <li><strong>Soma das Idades: </strong><span id="totalAges"></span></li>
+                <li><strong>Média das Idades: </strong><span id="avgAges"></span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Desafio Final, Módulo 1 Bootcamp FullStack IGTI |</p>
+        <p>Desenvolvedor: Amanda Caroline </p>
+        <p>| 2020 ®</p>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
